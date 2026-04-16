@@ -1,0 +1,143 @@
+/* CSS Measurments */
+
+/* px, pt, %, em, rem, vh, vw  */
+/* Static, responsive */
+
+/* Global */
+
+body {
+  background-color: rgb(218, 210, 210);
+  font-size: 15px;
+  width: 90%;
+}
+
+.box {
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 90px;
+  gap: 5px;
+}
+
+/*----BUTTONS----*/
+button {
+  width: 150px;
+  border-radius: 25px;
+  height: 50px;
+  justify-content: center;
+  display: flex;
+  margin-top: 80px;
+}
+
+.button-sedan {
+  margin: auto;
+  font-size: 15px;
+  color: hsl(31, 77%, 52%);
+}
+
+.button-suvs {
+  margin: auto;
+  font-size: 15px;
+  color: hsl(184, 100%, 22%);
+}
+
+.button-luxury {
+  margin: auto;
+  font-size: 15px;
+  color: hsl(179, 100%, 13%);
+}
+/*----BUTTON----*/
+
+/*CAR SPECIFICS*/
+
+.car-img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 30px;
+  margin-left: 34px;
+}
+
+.car-info {
+  padding: 5px;
+  max-width: 70%;
+  margin-top: -20px;
+  margin-left: 30px;
+  justify-content: center;
+  flex-direction: row;
+
+  color: white;
+  hyphens: auto;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: "Big Shoulders Display";
+  font-weight: 700;
+}
+
+p {
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+/*CAR SPECIFICS*/
+
+/*-----CARS------- */
+
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+  width: 250px;
+  transform: scale(1);
+  border-radius: 12px;
+  flex-direction: column;
+}
+
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+  width: 250px;
+  transform: scale(1);
+  border-radius: 12px;
+  flex-direction: column;
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  width: 250px;
+  transform: scale(1);
+  border-radius: 12px;
+  flex-direction: column;
+}
+
+h3 {
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+/*-----CARS------- */
+
+/*---Hover effect-----*/
+
+.sedan:hover {
+  transform: scale(1.04);
+  transition-duration: 1s;
+}
+.suvs:hover {
+  transform: scale(1.04);
+  transition-duration: 1s;
+}
+.luxury:hover {
+  transform: scale(1.04);
+  transition-duration: 1s;
+}
+/*---Hover effect BUTTONS-----*/
+button:hover {
+  box-shadow:
+    0 0 10px hsl(184, 55%, 41%),
+    0 0 25px hsl(49, 79%, 54%),
+    0 0 50px hsl(69, 62%, 50%);
+}
