@@ -18,9 +18,8 @@ body {
   height: 500px;
   display: flex;
   justify-content: center;
-  margin: auto;
   margin-top: 90px;
-  gap: 5px;
+  gap: 0px;
 }
 
 /*----BUTTONS----*/
@@ -31,6 +30,7 @@ button {
   justify-content: center;
   display: flex;
   margin-top: 80px;
+  border: none;
 }
 
 .button-sedan {
@@ -92,24 +92,18 @@ p {
 .sedan {
   background-color: hsl(31, 77%, 52%);
   width: 250px;
-  transform: scale(1);
-  border-radius: 12px;
   flex-direction: column;
 }
 
 .suvs {
   background-color: hsl(184, 100%, 22%);
   width: 250px;
-  transform: scale(1);
-  border-radius: 12px;
   flex-direction: column;
 }
 
 .luxury {
   background-color: hsl(179, 100%, 13%);
   width: 250px;
-  transform: scale(1);
-  border-radius: 12px;
   flex-direction: column;
 }
 
@@ -117,27 +111,4 @@ h3 {
   text-align: center;
   flex-direction: column;
   justify-content: center;
-}
-/*-----CARS------- */
-
-/*---Hover effect-----*/
-
-.sedan:hover {
-  transform: scale(1.04);
-  transition-duration: 1s;
-}
-.suvs:hover {
-  transform: scale(1.04);
-  transition-duration: 1s;
-}
-.luxury:hover {
-  transform: scale(1.04);
-  transition-duration: 1s;
-}
-/*---Hover effect BUTTONS-----*/
-button:hover {
-  box-shadow:
-    0 0 10px hsl(184, 55%, 41%),
-    0 0 25px hsl(49, 79%, 54%),
-    0 0 50px hsl(69, 62%, 50%);
 }
